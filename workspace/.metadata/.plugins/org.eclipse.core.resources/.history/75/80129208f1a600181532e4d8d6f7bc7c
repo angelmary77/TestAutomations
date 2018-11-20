@@ -1,0 +1,16 @@
+package Pac1.xyz;
+
+import login.Login;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Login l = new Login();
+		l.name = "ttttttt";
+		l.loginUser();
+		
+
+	}
+
+}

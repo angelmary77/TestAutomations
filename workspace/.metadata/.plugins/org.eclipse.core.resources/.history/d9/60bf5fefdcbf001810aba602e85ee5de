@@ -1,0 +1,13 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TextFields_Buttons {
+
+	public static void main(String[] args) {
+		//wirte, read, clear
+
+		WebDriver driver = new FirefoxDriver();
+		
+	}
+
+}

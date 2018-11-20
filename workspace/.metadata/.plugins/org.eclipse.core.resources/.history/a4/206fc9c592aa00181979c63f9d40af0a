@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Exercises {
+
+	public static void main(String[] args) {
+		//Find Even numbers
+		int num;
+		System.out.print("Enter a number: ");
+		Scanner scan = new Scanner(System.in);
+		num = scan.nextInt();
+		
+		//printEvenNums(num);
+		//divisibleNums(num);
+		sumNums(num);
+	}
+	//Write a for loop to print even number between 1 to 100
+	public static void printEvenNums(int n){
+		for(int i=0; i<=n; i++){
+			if(i%2 == 0){
+				System.out.print(i + ", ");
+			}
+			}
+			
+		}
+	
+	public static void divisibleNums(int n){
+		for(int i=0; i<=n; i++){
+			if(i%5 == 0){
+				System.out.println("Divisble by 5 "+ i);
+			}
+			}
+			
+		}
+	public static void sumNums(int n){
+		int sum = 0;
+		for(int i=0; i<=n; i++){
+			sum = sum + i;
+			}
+		System.out.println(sum);
+		 
+		}
+			
+}
+
+

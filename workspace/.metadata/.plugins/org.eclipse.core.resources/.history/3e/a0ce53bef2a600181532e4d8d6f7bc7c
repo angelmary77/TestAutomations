@@ -1,0 +1,18 @@
+package Pac1.xyz;
+
+import login.Login;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+//		Login l = new Login();
+//		l.name = "ttttttt";
+//		l.loginUser();
+		int n = 1%10;
+		System.out.println(n);
+				
+
+	}
+
+}

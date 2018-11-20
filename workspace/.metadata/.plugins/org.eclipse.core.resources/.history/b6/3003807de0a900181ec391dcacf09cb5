@@ -1,0 +1,27 @@
+public class Arrays {
+
+	public static void main(String[] args) {
+		String username = "yyyyy";
+		String password = "mmmmmm";
+		String email ="mary@jsdgj.com";
+		String zip = "878";
+		String city = "Chennai";
+		
+		//Arrays
+		//read the data from 
+		String str[] = new String[5];
+		str[0] = "yyyyy";
+		str[1] = "mmmmmm";
+		str[2] = "mary@jsdgj.com";
+		str[3] = "878";
+		str[4] = "Chennai";
+		
+		int intArray[] = new int[7];
+		char c[] = new char[4];
+		
+		System.out.println("the length of the array is " + str.length);
+		
+		
+	}
+
+}

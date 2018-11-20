@@ -1,0 +1,21 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		String username = "yyyyy";
+		String password = "mmmmmm";
+		email ='mary@jsdgj.com';
+		int zip = "878";
+		String city = "Chennai";
+		
+		Array str[] = new Array[5];
+		str[0] = "yyyyy";
+		str[0] = "mmmmmm";
+		str[0] = "mary@jsdgj.com";
+		str[0] = "878";
+		str[0] = "Chennai";
+		
+		
+	}
+
+}

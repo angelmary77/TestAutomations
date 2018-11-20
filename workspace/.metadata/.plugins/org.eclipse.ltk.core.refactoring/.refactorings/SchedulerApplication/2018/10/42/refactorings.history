@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SchedulerApplication/src/Config/text_properties&apos; to &apos;test.properties&apos;" description="Rename resource &apos;text_properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Config/text_properties" name="test.properties" stamp="1539856675204" updateReferences="true"/>
+</session>

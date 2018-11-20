@@ -1,0 +1,17 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TextFields_Buttons {
+
+	public static void main(String[] args) {
+		//write, read, clear
+
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://golfclubs.com/");
+		String sSearch= driver.findElement(By.xpath("//input[@id='s']")).getAttribute("name");
+		System.out.println("sSearch");
+		
+	}
+
+}

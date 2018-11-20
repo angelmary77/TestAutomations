@@ -1,0 +1,58 @@
+package Pac1.xyz;
+
+import java.io.Console;
+import java.util.Scanner;
+
+import login.Login;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+//		Login l = new Login();
+//		l.name = "ttttttt";
+//		l.loginUser();
+//		Console console = System.console();
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter Palinddrome input: ");
+		int n = scan.nextInt();
+		isNumbePalindrome(n);
+		
+	}
+	
+	public static void isNumbePalindrome(int a){
+		int temp, reverse=0, reminder;
+		temp = a;
+		
+		while(a>0){
+			reminder = a % 10;
+			reverse = (reverse * 10) + reminder;
+			a = a / 10;
+		}
+		if(temp == reverse){
+			System.out.println(temp +" is a palindrome");
+			
+		}else{
+			System.out.println(reverse +" is not a palindrome");
+		}
+		
+	
+	}
+	
+	public static void isStringPalindrome(String palind){
+		int temp;
+		String reverse= " ";
+		temp = palind.length();
+		for(int i=temp-1; i>0; i--){
+			reverse = reverse + palind.charAt(i);
+			
+		}
+	
+		if(palind == reverse){
+			System.out.println(temp +" is a palindrome");
+			
+		}else{
+			System.out.println(reverse +" is not a palindrome");
+		}
+
+}

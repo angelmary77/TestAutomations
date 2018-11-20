@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercises {
+
+	public static void main(String[] args) {
+		//1.
+		int num;
+		System.out.printf("Enter a number");
+		Scanner scan = new Scanner(System.in);
+		num = scan.nextInt();
+		
+		printEvenNums(num);
+
+	}
+	//Write a for loop to print even number between 1 to 100
+	public static void printEvenNums(int n){
+		for(int i=0; i<=n; i++){
+			if(i%2 == 0){
+				System.out.print(i + ",");
+			}
+			}
+			
+		}
+}
+
+

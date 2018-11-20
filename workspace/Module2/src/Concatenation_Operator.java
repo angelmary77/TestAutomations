@@ -1,0 +1,18 @@
+
+public class Concatenation_Operator {
+
+	public static void main(String[] args) {
+		//Concatenation operators
+		String a = "Hello";
+		String b = "World";
+		int x = 900;
+		int y = 800;
+		
+		System.out.println(a+b);
+		System.out.println(x+y);
+		System.out.println(a+b+x+y);
+		System.out.println(a+b+(x+y));
+
+	}
+
+}

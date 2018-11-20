@@ -1,0 +1,35 @@
+package Pac1.xyz;
+
+import java.io.Console;
+
+import login.Login;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+//		Login l = new Login();
+//		l.name = "ttttttt";
+//		l.loginUser();
+//		Console console = System.console();
+		int n, rev=0, rem, temp;
+		n = 22;
+		temp = n;
+		while(n>0){
+			rem = n%10;
+			rev = (rev * 10) + rem;
+			
+			n = n/10;
+		
+		}
+		if(temp == rev){
+			System.out.println(temp + " is palindrome");
+		}else{
+			System.out.println(rev + " is not palindrome");
+		}
+		
+				
+
+	}
+
+}

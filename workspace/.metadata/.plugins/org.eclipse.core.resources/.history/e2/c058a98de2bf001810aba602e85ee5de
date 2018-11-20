@@ -1,0 +1,31 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TextFields_Buttons {
+
+	public static void main(String[] args) {
+		//write, read, clear
+
+//		WebDriver driver = new FirefoxDriver();
+//		driver.get("https://golfclubs.com/");
+//		String sSearch= driver.findElement(By.xpath("//input[@id='s']")).getAttribute("name");
+//		System.out.println(sSearch);
+//		driver.findElement(By.xpath("//input[@id='s']")).sendKeys("iphone");
+//		String sSearchInput= driver.findElement(By.xpath("//input[@id='s']")).getAttribute("value");
+//		System.out.println(sSearchInput);
+		
+		
+		//buttons
+		//click, read text
+		System.setProperty("webdriver.chrome.driver", "D:\\Dev\\ChromeDriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://golfclubs.com/");
+		String sButton = driver.findElement(By.xpath("//input[@value='Subscribe']")).getAttribute("value");
+		System.out.println(sButton);
+		
+		
+	}
+
+}
